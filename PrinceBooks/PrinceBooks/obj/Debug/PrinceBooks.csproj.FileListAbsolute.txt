@@ -1,0 +1,9 @@
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\bin\Debug\PrinceBooks.dll
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\bin\Debug\PrinceBooks.pdb
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\bin\Debug\Xamarin.Forms.Core.dll
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\bin\Debug\Xamarin.Forms.Xaml.dll
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\bin\Debug\Xamarin.Forms.Core.xml
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\bin\Debug\Xamarin.Forms.Xaml.xml
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\obj\Debug\PrinceBooks.csprojResolveAssemblyReference.cache
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\obj\Debug\PrinceBooks.dll
+Z:\Git\PrinceBook\PrinceBooks\PrinceBooks\obj\Debug\PrinceBooks.pdb
