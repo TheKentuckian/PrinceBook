@@ -4,12 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
+using PrinceBookWebAPI.Models;
 
-namespace FifteenApp.ServiceClient
+namespace PrinceBook.ServiceClient
 {
     public class ServiceClient
     {
-        private const string PRINCEBOOK_API_URL = @"http://princebookapi.azurewebsites.net/";
+        private const string PRINCEBOOK_API_URL = @"http://princebookapi.azurewebsites.net/api/";
         private const string HTTP_POST = "POST";
         private const string HTTP_PUT = "PUT";
         private const string HTTP_DELETE = "DELETE";
@@ -34,99 +35,39 @@ namespace FifteenApp.ServiceClient
         private WebClient getWebClient()
         {
             var client = new WebClient();
-            client.Headers.Add("Authorization", "Bearer " + token);
             client.Headers.Add("Content-Type", "application/json");
             return client;
         }
 
-        //public void CreateConnection(long subscriberphonenumber, long friendphonenumber)
-        //{
-        //    string url = getApiUrl("registry/{0}/{1}".FormatWith(subscriberphonenumber, friendphonenumber));
-        //    getWebClient().UploadString(url, null);
-        //}
-
-        //public void DeleteConnection(long subscriberphonenumber, long friendphonenumber)
-        //{
-        //    string url = getApiUrl("registry/{0}/{1}".FormatWith(subscriberphonenumber, friendphonenumber));
-        //    getWebClient().UploadData(url, HTTP_DELETE, null);
-        //}
-
-        //public void DeleteSubscriber(long subscriberphonenumber)
-        //{
-        //    string url = getApiUrl("registry/{0}".FormatWith(subscriberphonenumber));
-        //    getWebClient().UploadString(url, HTTP_DELETE, null);
-        //}
-
-        //public SubscriberDTO GetSubscriber(long subscriberphonenumber)
-        //{
-        //    string url = getApiUrl("registry/{0}".FormatWith(subscriberphonenumber));
-        //    string subscriberJSON = getWebClient().DownloadString(url);
-        //    //Ex: {"PhoneNumber":447123088069,"DisplayName":"Tony"}
-        //    SubscriberDTO subscriber = JsonConvert.DeserializeObject<SubscriberDTO>(subscriberJSON);
-        //    return subscriber;
-        //}
-
-        //public int GetSubscriberCount()
-        //{
-        //    string subscriberCountJSON = getWebClient().DownloadString(getApiUrl("registry/"));
-        //    //Ex: {"summary":{"count_of_registered_users":18}}
-        //    JObject subscriberData = JObject.Parse(subscriberCountJSON);
-        //    return int.Parse(subscriberData["summary"]["count_of_registered_users"].ToString());
-        //}
-
-        public void CreateSubscriber(long phoneNumber, string displayName)
+        public void CreateUser(User User)
         {
-            var subscriber = new SubscriberDTO { PhoneNumber = phoneNumber, DisplayName = displayName };
-            string json = JsonConvert.SerializeObject(subscriber);
-            //Ex: { PhoneNumber:"447123088069", DisplayName:"Tony"}
-            getWebClient().UploadString(getApiUrl("registry/"), json);
+            string json = JsonConvert.SerializeObject(User);
+            getWebClient().UploadString(getApiUrl("users/"), json);
         }
 
-        public void UpdateSubscriber(long phoneNumber, string displayName)
+        public User AuthenticateUser(string UserName, string Password)
         {
-            var subscriber = new SubscriberDTO { PhoneNumber = phoneNumber, DisplayName = displayName };
-            string json = JsonConvert.SerializeObject(subscriber);
-            //Ex: { PhoneNumber:"447123088069", DisplayName:"Tony"}
-            getWebClient().UploadString(getApiUrl("registry/"), HTTP_PUT, json);
+            var attempt = new { UserName = UserName, Password = Password };
+            string json = JsonConvert.SerializeObject(attempt);
+            getWebClient().UploadString(getApiUrl("users/authenticate/"), HTTP_POST, json);
+            var result = JsonConvert.DeserializeObject<User>(json);
+            return result;
         }
 
-        public Dictionary<long, SubscriberStatus> QuerySubscribers(string query)
+        public List<Industry> GetIndustries()
         {
-            //Query example: { query: { type:'phonebook', subscribernumber:'447123088069', predicate:['+447123088069', '+447456088069'] } }
-            string json = getWebClient().UploadString(getApiUrl("registry/query"), query);
-            //JObject parsed = JObject.Parse(json);
-            //{"447123088069":"unavailable","447456088069":"unavailable"}
-            var results = JsonConvert.DeserializeObject<Dictionary<long, SubscriberStatus>>(json);
+            string url = getApiUrl("industry/");
+            string json = getWebClient().DownloadString(url);
+            var results = JsonConvert.DeserializeObject<List<Industry>>(json);
             return results;
         }
 
-        public List<Message> GetMessagesForSubscriber(long SubscriberPhoneNumber, int RequestCount = 10)
+        public List<Article> GetArticlesForIndustry(int IndustryID)
         {
-            string url = getApiUrl("messages/{0}/{1}".FormatWith(SubscriberPhoneNumber, RequestCount));
+            string url = getApiUrl(string.Format("articles/{0}", IndustryID));
             string json = getWebClient().DownloadString(url);
-            var results = JsonConvert.DeserializeObject<List<Message>>(json);
+            var results = JsonConvert.DeserializeObject<List<Article>>(json);
             return results;
-        }
-
-        public int GetUndeliveredMessageCount(long SubscriberPhoneNumber)
-        {
-            string url = getApiUrl("messages/{0}/count".FormatWith(SubscriberPhoneNumber));
-            string json = getWebClient().DownloadString(url);
-            int count = JsonConvert.DeserializeObject<int>(json);
-            return count;
-        }
-
-        public void AcknowledgeReceipt(long SubscriberPhoneNumber, Guid MessageID)
-        {
-            string url = getApiUrl("messages/{0}/{1}/receipt".FormatWith(SubscriberPhoneNumber, MessageID));
-            getWebClient().UploadString(url, null);
-        }
-
-        public void PublishFeedItem(long SubscriberPhoneNumber, FeedItem Item)
-        {
-            string json = JsonConvert.SerializeObject(Item);
-            string url = getApiUrl("messages/{0}".FormatWith(SubscriberPhoneNumber));
-            getWebClient().UploadString(url, json);
         }
     }
 }
