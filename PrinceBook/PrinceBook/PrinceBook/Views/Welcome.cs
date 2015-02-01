@@ -33,7 +33,7 @@ namespace PrinceBook.Views
                 YAlign = TextAlignment.Center,
             };
             layout.Children.Add(label);
-            BackgroundImage = "Pup-home.png";
+            BackgroundImage = "Puphome.png";
             Content = new ScrollView { Content = layout };
         }
 

@@ -79,45 +79,23 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\icon.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
-    <EmbeddedResource Include="Resources\drawable\all for today.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\articles.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\mentor 2.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\mentor.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\mentors.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\projects.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\Pup-home.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\quizzes.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\select interest.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\drawable\stories.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <AndroidResource Include="Resources\drawable\allfortoday.png" />
+    <AndroidResource Include="Resources\drawable\careers.png" />
+    <AndroidResource Include="Resources\drawable\mentorz.png" />
+    <AndroidResource Include="Resources\drawable\mentor.png" />
+    <AndroidResource Include="Resources\drawable\mentors.png" />
+    <AndroidResource Include="Resources\drawable\projects.png" />
+    <AndroidResource Include="Resources\drawable\Puphome.png" />
+    <AndroidResource Include="Resources\drawable\quizzes.png" />
+    <AndroidResource Include="Resources\drawable\industry.png" />
+    <AndroidResource Include="Resources\drawable\stories.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PrinceBook\PrinceBook.csproj">

@@ -45,10 +45,40 @@ namespace PrinceBook.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int icon = 2130837504;
+			public const int allfortoday = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int monoandroidsplash = 2130837505;
+			public const int careers = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int icon = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int industry = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int mentor = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int mentors = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int mentorz = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int monoandroidsplash = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int projects = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int Puphome = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int quizzes = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int stories = 2130837515;
 			
 			static Drawable()
 			{

@@ -39,6 +39,7 @@ namespace PrinceBook.Views
             {
                 layout.Children.Add(CreateIndustry(industry));
             }
+            BackgroundImage = "industry.png";
             Content = new ScrollView { Content = layout };
         }
 
@@ -58,7 +59,9 @@ namespace PrinceBook.Views
                     new Projects(),
                     new Careers(),
                     new Quiz(),
-                    new Mentor() }
+                    new Mentor(),
+                    new Thatsall()
+                }
             });
         }
     }

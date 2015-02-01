@@ -11,8 +11,18 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int monoandroidsplash=0x7f020001;
+        public static final int allfortoday=0x7f020000;
+        public static final int careers=0x7f020001;
+        public static final int icon=0x7f020002;
+        public static final int industry=0x7f020003;
+        public static final int mentor=0x7f020004;
+        public static final int mentors=0x7f020005;
+        public static final int mentorz=0x7f020006;
+        public static final int monoandroidsplash=0x7f020007;
+        public static final int projects=0x7f020008;
+        public static final int puphome=0x7f020009;
+        public static final int quizzes=0x7f02000a;
+        public static final int stories=0x7f02000b;
     }
     public static final class style {
         public static final int Mono_Android_Theme_Splash=0x7f030000;

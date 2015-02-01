@@ -22,6 +22,14 @@ namespace PrinceBook.Views
                 YAlign = TextAlignment.Center, 
             };
             layout.Children.Add(label);
+            var button = new Button { Text = "See first Mentor", TextColor = Color.White };
+
+            button.Clicked += delegate
+            {
+                Navigation.PushAsync(new MentorOne());
+            };
+            layout.Children.Add(button);
+            BackgroundImage = "mentors.png";
 
             Content = new ScrollView { Content = layout };
 

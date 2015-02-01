@@ -49,9 +49,11 @@
     <Compile Include="Views\Industry.cs" />
     <Compile Include="Views\Login.cs" />
     <Compile Include="Views\Mentor.cs" />
+    <Compile Include="Views\MentorOne.cs" />
     <Compile Include="Views\Projects.cs" />
     <Compile Include="Views\Quiz.cs" />
     <Compile Include="Views\QuizQuestion.cs" />
+    <Compile Include="Views\Thatsall.cs" />
     <Compile Include="Views\Welcome.cs" />
   </ItemGroup>
   <ItemGroup>

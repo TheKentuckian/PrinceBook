@@ -24,17 +24,6 @@ c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\Pri
 c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\uploadflags.txt
 c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.dll.mdb
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\PrinceBook.Droid.csprojResolveAssemblyReference.cache
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\icon.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\all for today.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\articles.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\mentor 2.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\mentor.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\mentors.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\projects.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\Pup-home.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\quizzes.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\select interest.png
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\stories.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.pdb
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.dll.mdb
@@ -58,5 +47,16 @@ C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable-hdpi\icon.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable-xhdpi\icon.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\puphome.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\R.cs.flag
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\uploadflags.txt
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\allfortoday.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\careers.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\mentorz.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\mentor.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\mentors.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\projects.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\quizzes.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\industry.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\stories.png

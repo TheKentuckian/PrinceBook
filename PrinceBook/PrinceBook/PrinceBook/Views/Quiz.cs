@@ -22,7 +22,7 @@ namespace PrinceBook.Views
                 YAlign = TextAlignment.Center, 
             };
             layout.Children.Add(label);
-
+            BackgroundImage = "quizzes.png";
             Content = new ScrollView { Content = layout };
 
         }
