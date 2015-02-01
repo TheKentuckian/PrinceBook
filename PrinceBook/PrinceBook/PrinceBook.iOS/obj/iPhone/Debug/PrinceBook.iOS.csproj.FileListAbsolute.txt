@@ -1,0 +1,14 @@
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\PrinceBookiOS.exe
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\PrinceBookiOS.pdb
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\PrinceBook.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\PrinceBook.pdb
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\PrinceBook.dll.mdb
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\obj\iPhone\Debug\
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\obj\iPhone\Debug\PrinceBook.iOS.csprojResolveAssemblyReference.cache
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\obj\iPhone\Debug\PrinceBookiOS.exe
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.iOS\obj\iPhone\Debug\PrinceBookiOS.pdb

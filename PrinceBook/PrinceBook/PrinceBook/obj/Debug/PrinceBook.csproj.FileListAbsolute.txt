@@ -1,0 +1,9 @@
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\bin\Debug\PrinceBook.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\bin\Debug\PrinceBook.pdb
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.csprojResolveAssemblyReference.cache
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.dll
+c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.pdb
