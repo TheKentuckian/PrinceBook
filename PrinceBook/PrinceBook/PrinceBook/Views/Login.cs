@@ -39,35 +39,7 @@ namespace PrinceBook.Views
             
             button.Clicked += delegate
             {
-                List<ContentPage> pages = new List<ContentPage>(0);
-                pages.Add(new Industry());
-                pages.Add(new Industry());
-                pages.Add(new Industry());
-                pages.Add(new Industry());
-                pages.Add(new Industry());
-
-                Color[] colors = { Color.Red, Color.Green, Color.Blue };
-                foreach (Color c in colors)
-                {
-                    pages.Add(new ContentPage
-                    {
-                        Content = new StackLayout
-                        {
-                            Children = {
-                new Label { Text = c.ToString () },
-                new BoxView {
-                    Color = c,
-                    VerticalOptions = LayoutOptions.FillAndExpand
-                }
-            }
-                        }
-                    });
-                }
-
-                Navigation.PushAsync(new CarouselPage
-                {
-                    Children = { pages[0], pages[1], pages[2] }
-                });
+                Navigation.PushAsync(new Industry());
             };
             layout.Children.Add(button);
 
