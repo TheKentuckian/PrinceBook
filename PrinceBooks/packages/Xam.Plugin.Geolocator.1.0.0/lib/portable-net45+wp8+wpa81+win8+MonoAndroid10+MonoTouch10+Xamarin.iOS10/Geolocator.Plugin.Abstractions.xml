@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Geolocator.Plugin.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Geolocator.Plugin.Abstractions.IGeolocator">
+            <summary>
+            Interface for Geolocator
+            </summary>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.Latitude">
+            <summary>
+            Gets or sets the latitude.
+            </summary>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.Longitude">
+            <summary>
+            Gets or sets the longitude.
+            </summary>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.Altitude">
+            <summary>
+            Gets or sets the altitude in meters relative to sea level.
+            </summary>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.Accuracy">
+            <summary>
+            Gets or sets the potential position error radius in meters.
+            </summary>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.AltitudeAccuracy">
+            <summary>
+            Gets or sets the potential altitude error range in meters.
+            </summary>
+            <remarks>
+            Not supported on Android, will always read 0.
+            </remarks>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.Heading">
+            <summary>
+            Gets or sets the heading in degrees relative to true North.
+            </summary>
+        </member>
+        <member name="P:Geolocator.Plugin.Abstractions.Position.Speed">
+            <summary>
+            Gets or sets the speed in meters per second.
+            </summary>
+        </member>
+        <member name="F:Geolocator.Plugin.Abstractions.GeolocationError.PositionUnavailable">
+            <summary>
+            The provider was unable to retrieve any position data.
+            </summary>
+        </member>
+        <member name="F:Geolocator.Plugin.Abstractions.GeolocationError.Unauthorized">
+            <summary>
+            The app is not, or no longer, authorized to receive location data.
+            </summary>
+        </member>
+    </members>
+</doc>
