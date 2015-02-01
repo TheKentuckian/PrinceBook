@@ -33,21 +33,19 @@ namespace PrinceBook.Views
                 YAlign = TextAlignment.Center,
             };
             layout.Children.Add(subLabel);
-           
-            layout.Children.Add(CreateIndustry("Tech", 1));
-            layout.Children.Add(CreateIndustry("Design", 2));
-            layout.Children.Add(CreateIndustry("Tech", 3));
 
-            layout.Children.Add(CreateIndustry("Tech", 4));
-            layout.Children.Add(CreateIndustry("Tech", 5));
-            layout.Children.Add(CreateIndustry("Tech", 6));
+            var industries = new ServiceClient.ServiceClient().GetIndustries();
+            foreach (var industry in industries)
+            {
+                layout.Children.Add(CreateIndustry(industry));
+            }
             Content = new ScrollView { Content = layout };
         }
 
-        public Button CreateIndustry(string text, int industryID)
+        public Button CreateIndustry(PrinceBookWebAPI.Models.Industry i)
         {
-            var button = new Button { Text = text, TextColor = Color.White };
-            button.Clicked += delegate { Navigation.PushAsync(GetIndustryPage(industryID)); };
+            var button = new Button { Text = i.Title, TextColor = Color.White };
+            button.Clicked += delegate { Helpers.Global.Industry = i.Title; Navigation.PushAsync(GetIndustryPage(i.ID)); };
             return button;
         }
 

@@ -9,10 +9,11 @@ c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\Pri
 c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.pdb
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\PrinceBook.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\PrinceBook.pdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.pdb
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook\obj\Debug\PrinceBook.csprojResolveAssemblyReference.cache

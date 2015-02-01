@@ -23,26 +23,38 @@ c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\Pri
 c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\R.cs.flag
 c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\uploadflags.txt
 c:\users\mohamed\documents\visual studio 2015\Projects\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.dll.mdb
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.dll.mdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\PrinceBook.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\icon.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\all for today.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\articles.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\mentor 2.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\mentor.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\mentors.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\projects.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\Pup-home.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\quizzes.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\select interest.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Resources\drawable\stories.png
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.dll
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.pdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.dll.mdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.apk
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid-Signed.apk
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\FormsViewGroup.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.pdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.dll.mdb
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\PrinceBook.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\PrinceBook.Droid.dll
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\PrinceBook.Droid.pdb
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.dll
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.pdb
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.dll.mdb
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid.apk
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\bin\Debug\PrinceBook.Droid-Signed.apk
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\android\bin\PrinceBook.Droid.apk
-C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable\icon.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable-hdpi\icon.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable-xhdpi\icon.png
 C:\Users\Mohamed\Documents\Projects\PrinceBook\PrinceBook\PrinceBook\PrinceBook.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
