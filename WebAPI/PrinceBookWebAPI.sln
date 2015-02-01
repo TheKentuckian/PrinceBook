@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinceBookWebAPI", "PrinceBookWebAPI\PrinceBookWebAPI.csproj", "{00F89F5A-DECB-4F96-AD34-0C01BE144BA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E14F46B2-0323-4F35-9E39-BF8D7F4B82B3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceClient", "ServiceClient\ServiceClient.csproj", "{586A9D3E-7D39-41AE-9A3F-75429CEB3132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0D15C61B-082F-4007-B47A-498CE59B70CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F89F5A-DECB-4F96-AD34-0C01BE144BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F89F5A-DECB-4F96-AD34-0C01BE144BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F89F5A-DECB-4F96-AD34-0C01BE144BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F89F5A-DECB-4F96-AD34-0C01BE144BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586A9D3E-7D39-41AE-9A3F-75429CEB3132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586A9D3E-7D39-41AE-9A3F-75429CEB3132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586A9D3E-7D39-41AE-9A3F-75429CEB3132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586A9D3E-7D39-41AE-9A3F-75429CEB3132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D15C61B-082F-4007-B47A-498CE59B70CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D15C61B-082F-4007-B47A-498CE59B70CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D15C61B-082F-4007-B47A-498CE59B70CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D15C61B-082F-4007-B47A-498CE59B70CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

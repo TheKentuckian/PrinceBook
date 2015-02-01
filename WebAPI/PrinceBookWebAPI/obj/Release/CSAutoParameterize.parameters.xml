@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-PrinceBookWebAPI-20150201120208.mdf;Initial Catalog=aspnet-PrinceBookWebAPI-20150201120208;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Code\\TheKentuckian\\PrinceBook\\WebAPI\\PrinceBookWebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="PrinceBookWebAPIContext-Web.config Connection String" description="PrinceBookWebAPIContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=PrinceBookWebAPIContext-20150201014533; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PrinceBookWebAPIContext-20150201014533.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Code\\TheKentuckian\\PrinceBook\\WebAPI\\PrinceBookWebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PrinceBookWebAPIContext']/@connectionString" />
+  </parameter>
+  <parameter name="PrinceBookWebAPIContext_DatabasePublish-Web.config Connection String" description="PrinceBookWebAPIContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="PrinceBookWebAPIContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Code\\TheKentuckian\\PrinceBook\\WebAPI\\PrinceBookWebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PrinceBookWebAPIContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
