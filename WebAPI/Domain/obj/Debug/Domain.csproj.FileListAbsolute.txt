@@ -3,3 +3,8 @@ D:\Code\TheKentuckian\PrinceBook\WebAPI\Domain\bin\Debug\Domain.dll
 D:\Code\TheKentuckian\PrinceBook\WebAPI\Domain\bin\Debug\Domain.pdb
 D:\Code\TheKentuckian\PrinceBook\WebAPI\Domain\obj\Debug\Domain.dll
 D:\Code\TheKentuckian\PrinceBook\WebAPI\Domain\obj\Debug\Domain.pdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\WebAPI\Domain\bin\Debug\Domain.dll
+C:\Users\Mohamed\Documents\Projects\PrinceBook\WebAPI\Domain\bin\Debug\Domain.pdb
+C:\Users\Mohamed\Documents\Projects\PrinceBook\WebAPI\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed\Documents\Projects\PrinceBook\WebAPI\Domain\obj\Debug\Domain.dll
+C:\Users\Mohamed\Documents\Projects\PrinceBook\WebAPI\Domain\obj\Debug\Domain.pdb
