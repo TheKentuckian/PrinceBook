@@ -15,7 +15,7 @@ namespace PrinceBook.ViewModels
             this.navigation = navigation;
         }
 
-        public const string UsernamePropertyName = "Username";
+        public string UsernamePropertyName = "Username";
         private string username = string.Empty;
         public string Username
         {

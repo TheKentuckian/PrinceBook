@@ -21,8 +21,8 @@ namespace PrinceBook.Views
                 Font = Font.BoldSystemFontOfSize(NamedSize.Large),
                 TextColor = Color.White,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                XAlign = TextAlignment.Center, // Center the text in the blue box.
-                YAlign = TextAlignment.Center, // Center the text in the blue box.
+                XAlign = TextAlignment.Center, 
+                YAlign = TextAlignment.Center, 
             };
 
             layout.Children.Add(label);
@@ -39,6 +39,7 @@ namespace PrinceBook.Views
             
             button.Clicked += delegate
             {
+                var somethings = ViewModels.LoginViewModel.UsernamePropertyName;
                 Navigation.PushAsync(new Industry());
             };
             layout.Children.Add(button);

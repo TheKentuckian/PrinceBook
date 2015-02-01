@@ -14,15 +14,25 @@ namespace PrinceBook.Views
             var layout = new StackLayout { Padding = 10 };
             var label = new Label
             {
-                Text = "Welcome to the Industry Page.",
+                Text = "Select Your Interest.",
                 Font = Font.BoldSystemFontOfSize(NamedSize.Large),
                 TextColor = Color.White,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                XAlign = TextAlignment.Center, // Center the text in the blue box.
-                YAlign = TextAlignment.Center, // Center the text in the blue box.
+                XAlign = TextAlignment.Center, 
+                YAlign = TextAlignment.Center, 
             };
             layout.Children.Add(label);
 
+            var subLabel = new Label
+            {
+                Text = "What do like to do?",
+                Font = Font.BoldSystemFontOfSize(NamedSize.Medium),
+                TextColor = Color.White,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                XAlign = TextAlignment.Center,
+                YAlign = TextAlignment.Center,
+            };
+            layout.Children.Add(subLabel);
             var button = new Button { Text = "Choose Industry", TextColor = Color.White };
 
             button.Clicked += delegate
