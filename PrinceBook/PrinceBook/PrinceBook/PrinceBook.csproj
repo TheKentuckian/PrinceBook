@@ -37,6 +37,7 @@
     <Compile Include="App.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="Views\Careers.cs" />
     <Compile Include="Views\Industry.cs" />
     <Compile Include="Views\Login.cs" />
     <Compile Include="Views\Mentor.cs" />

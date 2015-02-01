@@ -11,6 +11,19 @@ namespace PrinceBook.Views
     {
         public Mentor()
         {
+            var layout = new StackLayout { Padding = 10 };
+            var label = new Label
+            {
+                Text = "Welcome to the Mentor Page.",
+                Font = Font.BoldSystemFontOfSize(NamedSize.Large),
+                TextColor = Color.White,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                XAlign = TextAlignment.Center, // Center the text in the blue box.
+                YAlign = TextAlignment.Center, // Center the text in the blue box.
+            };
+            layout.Children.Add(label);
+
+            Content = new ScrollView { Content = layout };
 
         }
     }
