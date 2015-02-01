@@ -121,3 +121,5 @@ D:\Code\TheKentuckian\PrinceBook\WebAPI\PrinceBookWebAPI\bin\ko\System.Spatial.r
 D:\Code\TheKentuckian\PrinceBook\WebAPI\PrinceBookWebAPI\bin\ru\System.Spatial.resources.dll
 D:\Code\TheKentuckian\PrinceBook\WebAPI\PrinceBookWebAPI\bin\zh-Hans\System.Spatial.resources.dll
 D:\Code\TheKentuckian\PrinceBook\WebAPI\PrinceBookWebAPI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Code\TheKentuckian\PrinceBook\WebAPI\PrinceBookWebAPI\bin\Domain.dll
+D:\Code\TheKentuckian\PrinceBook\WebAPI\PrinceBookWebAPI\bin\Domain.pdb
