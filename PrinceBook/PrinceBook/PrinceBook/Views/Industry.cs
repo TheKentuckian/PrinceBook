@@ -33,17 +33,24 @@ namespace PrinceBook.Views
                 YAlign = TextAlignment.Center,
             };
             layout.Children.Add(subLabel);
-            var button = new Button { Text = "Choose Industry", TextColor = Color.White };
+           
+            layout.Children.Add(CreateIndustry("Tech", 1));
+            layout.Children.Add(CreateIndustry("Design", 2));
+            layout.Children.Add(CreateIndustry("Tech", 3));
 
-            button.Clicked += delegate
-            {
-                Navigation.PushAsync(GetIndustryPage(1));
-            };
-            layout.Children.Add(button);
-
+            layout.Children.Add(CreateIndustry("Tech", 4));
+            layout.Children.Add(CreateIndustry("Tech", 5));
+            layout.Children.Add(CreateIndustry("Tech", 6));
             Content = new ScrollView { Content = layout };
-
         }
+
+        public Button CreateIndustry(string text, int industryID)
+        {
+            var button = new Button { Text = text, TextColor = Color.White };
+            button.Clicked += delegate { Navigation.PushAsync(GetIndustryPage(industryID)); };
+            return button;
+        }
+
         public Page GetIndustryPage(int industryID)
         {
             return new NavigationPage(new CarouselPage

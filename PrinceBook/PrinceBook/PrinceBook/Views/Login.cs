@@ -28,7 +28,7 @@ namespace PrinceBook.Views
             layout.Children.Add(label);
 
             var username = new Entry { Placeholder = "Username" };
-            username.SetBinding(Entry.TextProperty, ViewModels.LoginViewModel.UsernamePropertyName);
+            username.SetBinding(Entry.TextProperty, new Binding("Username", BindingMode.TwoWay));
             layout.Children.Add(username);
 
             var password = new Entry { Placeholder = "Password", IsPassword = true };
@@ -39,7 +39,7 @@ namespace PrinceBook.Views
             
             button.Clicked += delegate
             {
-                var somethings = ViewModels.LoginViewModel.UsernamePropertyName;
+                Helpers.Global.UserName = username.Text;
                 Navigation.PushAsync(new Industry());
             };
             layout.Children.Add(button);
